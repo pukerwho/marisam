@@ -1,0 +1,168 @@
+"Project-Id-Version: treba-wp\n"
+"POT-Creation-Date: 2021-02-16 20:22+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: treba-wp\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid "Кімнат"
+msgstr "Комнат"
+
+msgid "Площа"
+msgstr "Площадь"
+
+msgid "Поверх"
+msgstr "Этаж"
+
+msgid "Додав"
+msgstr "Добавил"
+
+msgid "Переглядів"
+msgstr "Просмотров"
+
+msgid "Популярні пропозиції"
+msgstr "Популярные предложения"
+
+msgid "Міста"
+msgstr "Городa"
+
+msgid "Відповісти"
+msgstr "Ответить"
+
+msgid "Всі можливі пропозиціі по довгостроковій оренді квартир в Україні зібрані на одном сайті."
+msgstr "Все возможные предложения по аренде квартир в Украине собраны на одном сайте."
+
+msgid "Навігація"
+msgstr "Навигация"
+
+msgid "Напишіть нам"
+msgstr "Напишите нам"
+
+msgid "Мова"
+msgstr "Язык"
+
+msgid "Додати"
+msgstr "Добавить"
+
+msgid "Довгострокова оренда квартир в Україні"
+msgstr "Долгосрочная аренда квартир в Украине"
+
+msgid "Нові"
+msgstr "Новые"
+
+msgid "Популярні"
+msgstr "Популярные"
+
+msgid "Додано на сайт"
+msgstr "Добавлено на сайт"
+
+msgid "Адреса"
+msgstr "Адрес"
+
+msgid "Опис"
+msgstr "Описание"
+
+msgid "Чи можна з маленькими дітьми?"
+msgstr "Можно ли с маленькими детьми?"
+
+msgid "Чи можна з тваринами?"
+msgstr "Можно ли с животными?"
+
+msgid "Чи можна студентам?"
+msgstr "Можно ли студентам?"
+
+msgid "Чи можна палити у квартирі?"
+msgstr "Можно ли курить в квартире?"
+
+msgid "Назва"
+msgstr "Название"
+
+msgid "Наявність"
+msgstr "Наличие"
+
+msgid "Лічильники"
+msgstr "Счетчики"
+
+msgid "Пральна машина"
+msgstr "Стиральная машина"
+
+msgid "Мікрохвильовка"
+msgstr "Микроволновка"
+
+msgid "Кондиціонер"
+msgstr "Кондиционер"
+
+msgid "Телевізор"
+msgstr "Телевизор"
+
+msgid "Посудомийна машина"
+msgstr "Посудомоечная машина"
+
+msgid "Засклений балкон"
+msgstr "Застекленный балкон"
+
+msgid "Поруч"
+msgstr "Рядом"
+
+msgid "Зупинка транспорту"
+msgstr "Остановка транспорта"
+
+msgid "Дитячий садочок"
+msgstr "Детский сад"
+
+msgid "Дитячий майданчик"
+msgstr "Детская площадка"
+
+msgid "Лікарня"
+msgstr "Больница"
+
+msgid "Відділення пошти"
+msgstr "Отделение почты"
+
+msgid "Відділення банку"
+msgstr "Отделение банка"
+
+msgid "Ціна"
+msgstr "Цена"
+
+msgid "Рейтинг оголошення"
+msgstr "Рейтинг объявления"
+
+msgid "Оцінок"
+msgstr "Оценок"
+
+msgid "Коментарі"
+msgstr "Комментарии"
+
+msgid "Зручності"
+msgstr "Удобства"
+
+msgid "✅ Так"
+msgstr "✅ Да"
+
+msgid "❌ Ні"
+msgstr "❌ Нет"
+
+msgid "Популярні райони"
+msgstr "Популярные районы"
+
+msgid "Всі статті"
+msgstr "Все статьи"
+
+msgid "Нові записи"
+msgstr "Новые записи"
+
+msgid "Головна"
+msgstr "Главная"
+
+msgid "Сайт про нерухомість в Україні"
+msgstr "Сайт о недвижимости в Украине"
