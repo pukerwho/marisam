@@ -35,7 +35,7 @@ if ( is_singular( 'post' ) ) {
 <?php wp_body_open(); ?>
   <header class="bg-[#0a0a29] text-white">
     <div class="container mx-auto px-2 lg:px-16 py-4 flex items-center justify-between">
-      <div class="flex items-center space-x-8">
+      <div class="flex items-center space-x-10">
         <div class="text-3xl font-bold"><a href="<?php echo home_url(); ?>"><span class="text-purple-600">M</span>arisam<span class="text-purple-600">.</span></a></div>
         <nav class="hidden lg:block">
           <?php wp_nav_menu([
@@ -45,7 +45,7 @@ if ( is_singular( 'post' ) ) {
           ]); ?> 
         </nav>
       </div>
-      <div class="flex items-center space-x-4">
+      <div class="flex items-center space-x-6">
         <div class="hidden lg:block">
           <form role="search" method="get" class="search-form flex items-center relative" action="<?php echo home_url( '/' ); ?>">
             <div class="absolute left-3 top-3 text-gray-400">
