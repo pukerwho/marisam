@@ -83,7 +83,7 @@
     shuffle($sidebar_categories);
     foreach ( $sidebar_categories as $sidebar_category ): ?>
     <?php $sidebar_dream_category_color = carbon_get_term_meta($sidebar_category->term_id, 'crb_category_color' ); ?>
-    <div class="relative flex flex-wrap items-center border border-gray-200 mb-1">
+    <div class="relative flex flex-wrap items-center border border-gray-200 mb-1 py-1">
       <a href="<?php echo get_term_link($sidebar_category); ?>" class="w-full h-full absolute left-0 top-0"></a>
       <div class="mr-2 pl-4">
         <img src="<?php echo carbon_get_term_meta($sidebar_category->term_id, 'crb_category_img' ); ?>" alt="<?php echo $sidebar_category->name ?>" loading="lazy" class="w-[55px] h-[55px] min-w-[55px] min-h-[55px] rounded-full object-cover">

@@ -33,7 +33,7 @@ if ( is_singular( 'post' ) ) {
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-  <header class="bg-white shadow-md">
+  <header class="bg-[#0a0a29] text-white">
     <div class="container mx-auto px-2 lg:px-16 py-4 flex items-center justify-between">
       <div class="flex items-center space-x-8">
         <div class="text-3xl font-bold"><a href="<?php echo home_url(); ?>"><span class="text-purple-600">M</span>arisam<span class="text-purple-600">.</span></a></div>

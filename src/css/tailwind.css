@@ -22,7 +22,7 @@ h1,h2,h3,h4,h5,h6 {
   @apply pt-24;
 }
 .header-menu a {
-  @apply text-gray-700 hover:text-purple-600;
+  @apply text-gray-200 hover:text-purple-500;
 }
 .footer .footer-menu li {
   @apply font-light mb-2;
