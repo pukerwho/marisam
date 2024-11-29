@@ -1869,8 +1869,9 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .header-menu a{
+  font-weight: 700;
   --tw-text-opacity: 1;
-  color: rgb(229 231 235 / var(--tw-text-opacity));
+  color: rgb(243 244 246 / var(--tw-text-opacity));
 }
 
 .header-menu a:hover{
