@@ -95,7 +95,7 @@
           <?php echo $our_category->cat_name; ?>
         </span>
         <?php endforeach; ?>
-        <div class="mt-3 text-lg font-semibold leading-tight cut-line"><a href="<?php echo get_the_permalink($main_id); ?>" class="hover:text-purple-600"><?php echo get_the_title($our_post['id']); ?></a></div>
+        <div class="mt-3 text-lg font-semibold leading-tight cut-line"><a href="<?php echo get_the_permalink($our_post['id']); ?>" class="hover:text-purple-600"><?php echo get_the_title($our_post['id']); ?></a></div>
         <div class="mt-4 flex items-center justify-between">
           <div class="flex items-center">
             <div class="mr-2">
@@ -176,7 +176,7 @@
   <div class="lg:col-span-2">
     <div class="flex justify-between items-center mb-6">
       <h2 class="text-2xl font-bold flex items-center gap-2">
-        Нові статті
+        Щось новеньке
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
         </svg>
