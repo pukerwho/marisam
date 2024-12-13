@@ -177,3 +177,11 @@ function getMeta($id) {
     add_post_meta( $id, $meta_success_item, $random_success_item, true);
   }
 }
+
+// хвилин читання
+function getTimeReading($post_id) {
+  $content = get_post_field( 'post_content', $post_id );
+  $count_words = str_word_count($content);
+  $time = floor($count_words / 110);
+  return $time;
+}

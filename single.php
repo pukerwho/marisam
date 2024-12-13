@@ -68,7 +68,7 @@
           </div>
           <div class="hidden lg:block text-sm px-4">•</div>
           <div>
-            <span class="text-gray-500">2 хв.читання</span>
+            <span class="text-gray-500"><?php echo getTimeReading(get_the_ID()); ?> хв.читання</span>
           </div>
           <div class="hidden lg:block text-sm px-4">•</div>
           <div class="w-1/2 lg:w-auto flex items-center">
