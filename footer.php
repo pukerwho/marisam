@@ -8,6 +8,12 @@
         <div class="text-lg opacity-75 mb-4">
           Креативні ідеї та корисні поради на кожен день. Ми намагаємося надати вам більше яскравих вражень 🫶❤️
         </div>
+        <div class="mb-4">
+          <div class="font-semibold mb-4"><?php _e("Друзі", "treba-wp"); ?></div>
+          <div>
+            <a href="https://kryazh.com.ua/"><img src="https://marisam.com.ua/wp-content/uploads/2025/01/kryazh-favicon.png" alt="Kryazh" width="24"></a>
+          </div>
+        </div>
         <div class="text-sm opacity-75"><?php echo date("Y"); ?>.</div>
       </div>
       <div class="w-full lg:w-1/4 lg:px-4 mb-6 lg:mb-0">
