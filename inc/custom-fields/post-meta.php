@@ -17,6 +17,7 @@ function crb_post_theme_options() {
       Field::make( 'text', 'crb_post_author', 'Автор' ),
       Field::make( 'text', 'crb_post_author_instagram', 'Інстаграм автора' ),
       Field::make( 'text', 'crb_post_author_facebook', 'Фейсбук автора' ),
+      Field::make( 'checkbox', 'crb_post_moskal', 'Не українською мовою' ),
   ) );
 }
 

@@ -88,7 +88,11 @@
         <div class="content mb-10" itemprop="articleBody">
           <div class="single-subjects mb-5">
             <div class="text-2xl font-bold uppercase mb-3">
-              <?php _e('Зміст','treba-wp'); ?>:
+              <?php if (carbon_get_the_post_meta('crb_post_moskal')): ?>
+                <?php _e("Содержание", "treba-wp"); ?>
+              <?php else: ?>
+                <?php _e("Зміст", "treba-wp"); ?>
+              <?php endif; ?>
             </div>
             <div class="single-subjects-inner"></div>
           </div>
