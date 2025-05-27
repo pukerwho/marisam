@@ -39,7 +39,7 @@
   <?php 
   $sidebar_rand_posts = new WP_Query( array( 
     'post_type' => 'post', 
-    'posts_per_page' => 9,
+    'posts_per_page' => 7,
     'order' => 'DESC',
     'orderby' => 'rand'
   ) );
@@ -65,6 +65,52 @@
     </div>
   </article>
   <?php endwhile; endif; wp_reset_postdata(); ?>
+  <?php
+  $locations = get_nav_menu_locations();
+
+  if (isset($locations['our'])) {
+    $menu = wp_get_nav_menu_object($locations['our']);
+    $menu_items = wp_get_nav_menu_items($menu->term_id);
+
+    if ($menu_items) {
+      foreach ($menu_items as $item) {
+        $post_id = url_to_postid($item->url);
+        if (!$post_id) continue;
+
+        setup_postdata(get_post($post_id)); ?>
+
+        <article class="flex gap-4 mb-4">
+          <img src="<?php echo get_the_post_thumbnail_url($post_id, 'large'); ?>" alt="<?php echo esc_attr(get_the_title($post_id)); ?>" class="w-24 h-24 rounded-xl object-cover">
+          <div>
+            <?php
+            $categories = get_the_terms($post_id, 'category');
+            if ($categories && !is_wp_error($categories)) {
+              foreach (array_slice($categories, 0, 1) as $category) {
+                $color = carbon_get_term_meta($category->term_id, 'crb_category_color');
+                ?>
+                <span class="inline-flex items-center px-2 py-1 rounded-full text-xs bg-<?php echo esc_attr($color); ?>-100 text-<?php echo esc_attr($color); ?>-800">
+                  <span class="w-1 h-1 rounded-full bg-<?php echo esc_attr($color); ?>-600 mr-1"></span>
+                  <?php echo esc_html($category->name); ?>
+                </span>
+              <?php }
+            } ?>
+            <div class="font-bold mt-1">
+              <a href="<?php echo esc_url(get_permalink($post_id)); ?>" class="hover:text-purple-600"><?php echo get_the_title($post_id); ?></a>
+            </div>
+            <div class="flex items-center text-sm text-gray-500 mt-1">
+              <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <?php echo getTimeReading($post_id); ?> хв.читання
+            </div>
+          </div>
+        </article>
+
+      <?php }
+      wp_reset_postdata();
+    }
+  }
+  ?>
 </div>
 
 <h2 class="text-2xl font-bold flex items-center gap-2 mb-6">

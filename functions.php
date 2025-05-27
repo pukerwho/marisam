@@ -17,7 +17,7 @@ if ( ! function_exists( 'treba_wp_setup' ) ) :
 				'header' => esc_html__( 'Header', 'treba-wp' ),
         'footer' => esc_html__( 'Footer', 'treba-wp' ),
         'mobile' => esc_html__( 'Mobile', 'treba-wp' ),
-        
+        'our' => esc_html__( 'Наш вибір', 'treba-wp' ),
 			)
 		);
 
